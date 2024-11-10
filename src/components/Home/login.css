@@ -1,0 +1,87 @@
+.login-container {
+    background: #000000;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #12161f;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    background: none;
+    border: 1px solid #4f5b7a;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.input-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #808db1;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label {
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    color: #00aaff;
+}
+
+.actions button {
+    width: 100%;
+    padding: 10px;
+    background: #00aaff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.actions button:hover {
+    background: #0077cc;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

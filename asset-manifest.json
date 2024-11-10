@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bytebeyond/static/css/main.e6c13ad2.css",
-    "main.js": "/bytebeyond/static/js/main.51b271b3.js",
+    "main.js": "/bytebeyond/static/js/main.b7c3db94.js",
     "static/js/453.2c83c080.chunk.js": "/bytebeyond/static/js/453.2c83c080.chunk.js",
     "index.html": "/bytebeyond/index.html",
     "main.e6c13ad2.css.map": "/bytebeyond/static/css/main.e6c13ad2.css.map",
-    "main.51b271b3.js.map": "/bytebeyond/static/js/main.51b271b3.js.map",
+    "main.b7c3db94.js.map": "/bytebeyond/static/js/main.b7c3db94.js.map",
     "453.2c83c080.chunk.js.map": "/bytebeyond/static/js/453.2c83c080.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.51b271b3.js"
+    "static/js/main.b7c3db94.js"
   ]
 }

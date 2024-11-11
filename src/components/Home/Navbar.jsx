@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className='navBar justify-content-between justify-content-lg-start z_inf'>
       <Link className="slogan" to={'/'}>Byte & Beyond</Link>
 
-        <ul className="links">
+        <ul className="links m-0">
           <li>
             <Link className="link active" to={'/'}>Home</Link>
           </li>

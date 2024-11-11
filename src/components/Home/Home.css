@@ -42,15 +42,16 @@ body{
   .link{
     padding-bottom: 5px;
     text-decoration: none;
-    color:gray;
+    color:gray !important;
     transition: 0.2s;
   }
   .link:hover{
-    color:white;
+    color:white !important;
+    text-decoration: none !important;
     border-bottom: 2px solid #ffff;
   }
   .link.active{
-    color:white;
+    color:white !important;
     border-bottom: 2px solid #ffff;
   }
   .slogan{

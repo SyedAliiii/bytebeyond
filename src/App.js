@@ -11,17 +11,17 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path='/bytebeyond' element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='blogs' element={<Blogs />} />
         </Route>
           <Route path='/blog' element={<ViewBlog />} />
-        <Route path='/admin' element={<AdminLayout />}>
+        <Route path='/bytebeyond/admin' element={<AdminLayout />}>
           <Route index element={<AdminDashboard />} />
           <Route path='author' element={<AdminAuthors />} />
           <Route path='comments' element={<AdminComments />} />
         </Route>
-        <Route path='/author' element={<AuthorLayout />}>
+        <Route path='/bytebeyond/author' element={<AuthorLayout />}>
           <Route index element={<AuthorDashboard />} />
           <Route path='comments' element={<AuthorComments />} />
         </Route>

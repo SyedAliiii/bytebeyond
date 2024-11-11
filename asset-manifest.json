@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bytebeyond/static/css/main.8bb3d65f.css",
-    "main.js": "/bytebeyond/static/js/main.aee2bcd5.js",
+    "main.css": "/bytebeyond/static/css/main.a2f45f83.css",
+    "main.js": "/bytebeyond/static/js/main.3af881d5.js",
     "static/js/453.2c83c080.chunk.js": "/bytebeyond/static/js/453.2c83c080.chunk.js",
     "static/media/blog1.jpg": "/bytebeyond/static/media/blog1.a028198a154a4d516b4e.jpg",
     "static/media/blog2.jpg": "/bytebeyond/static/media/blog2.d43bf7d8a175c4b07a51.jpg",
     "static/media/blog3.jpg": "/bytebeyond/static/media/blog3.31b32f9be77a79f5adc2.jpg",
     "index.html": "/bytebeyond/index.html",
-    "main.8bb3d65f.css.map": "/bytebeyond/static/css/main.8bb3d65f.css.map",
-    "main.aee2bcd5.js.map": "/bytebeyond/static/js/main.aee2bcd5.js.map",
+    "main.a2f45f83.css.map": "/bytebeyond/static/css/main.a2f45f83.css.map",
+    "main.3af881d5.js.map": "/bytebeyond/static/js/main.3af881d5.js.map",
     "453.2c83c080.chunk.js.map": "/bytebeyond/static/js/453.2c83c080.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bb3d65f.css",
-    "static/js/main.aee2bcd5.js"
+    "static/css/main.a2f45f83.css",
+    "static/js/main.3af881d5.js"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bytebeyond/static/css/main.1ac7d077.css",
-    "main.js": "/bytebeyond/static/js/main.064f9232.js",
+    "main.css": "/bytebeyond/static/css/main.96aac886.css",
+    "main.js": "/bytebeyond/static/js/main.a23171e3.js",
     "static/js/453.2c83c080.chunk.js": "/bytebeyond/static/js/453.2c83c080.chunk.js",
     "static/media/blog1.jpg": "/bytebeyond/static/media/blog1.a028198a154a4d516b4e.jpg",
     "static/media/blog2.jpg": "/bytebeyond/static/media/blog2.d43bf7d8a175c4b07a51.jpg",
     "static/media/blog3.jpg": "/bytebeyond/static/media/blog3.31b32f9be77a79f5adc2.jpg",
     "index.html": "/bytebeyond/index.html",
-    "main.1ac7d077.css.map": "/bytebeyond/static/css/main.1ac7d077.css.map",
-    "main.064f9232.js.map": "/bytebeyond/static/js/main.064f9232.js.map",
+    "main.96aac886.css.map": "/bytebeyond/static/css/main.96aac886.css.map",
+    "main.a23171e3.js.map": "/bytebeyond/static/js/main.a23171e3.js.map",
     "453.2c83c080.chunk.js.map": "/bytebeyond/static/js/453.2c83c080.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac7d077.css",
-    "static/js/main.064f9232.js"
+    "static/css/main.96aac886.css",
+    "static/js/main.a23171e3.js"
   ]
 }

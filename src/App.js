@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { AdminLayout, AdminDashboard, AdminComments, AdminAuthors } from './components/Admin/Index';
 import { AuthorLayout, AuthorDashboard, AuthorComments } from './components/Author/Index';

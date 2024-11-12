@@ -14,6 +14,7 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     background-color: #acacac;
+    overflow-x: hidden;
   }
 
 .z_inf{
@@ -71,6 +72,9 @@ body{
     gap: 30px;
     margin: 0;
   }
+  .links a{
+    margin: 0 !important;
+  }
 
   .heading {
     position: relative;
@@ -79,6 +83,17 @@ body{
     overflow: hidden;
     text-align: center;
     color: #ffffffd2;
+}
+@media (max-width: 768px){
+  .slogan{
+    font-size: 1.2em;
+  }
+  .heading{
+    font-size: 1.8em;
+  }
+  .d-none-768{
+    display: none !important;
+  }
 }
 ._showAll{
     justify-content:center;

@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
         <div className="links m-0">
           
-            <NavLink className="link" to={'/login'}><i class="fas fa-user-circle"></i></NavLink>
+            <NavLink className="link" to={'/login'}><i className="fas fa-user-circle"></i></NavLink>
         </div>
       </div>
 

@@ -8,17 +8,17 @@ export default function Crousel() {
   return (
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item ">
             <img src={blog1Img} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
             <img src={blog2Img} className="d-block w-100" alt="..." />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item active">
             <img src={blog3Img} className="d-block w-100" alt="..." />
           </div>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button className="carousel-control-prev" type="button">
           <span className="carousel-control-prev-icon" aria-hidden="true" />
           <span className="visually-hidden">Previous</span>
         </button>

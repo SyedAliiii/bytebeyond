@@ -6,7 +6,7 @@ export default function Login() {
   
   return (
     <div className="loginBody">
-      <div className="login-container">
+      <div className="login-container glowing_border">
         <h2>Login</h2>
         <form id="loginForm">
           <div className="input-group">

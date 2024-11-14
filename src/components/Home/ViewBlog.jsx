@@ -38,6 +38,12 @@ export default function ViewBlog() {
       window.removeEventListener("resize", updateScroller);
     };
   }, []);
+  function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
 
   return (
     <div className="singleBlogBody">
@@ -48,12 +54,12 @@ export default function ViewBlog() {
           {[...Array(25)].map((_, i) => <span key={i} />)}
         </div>
       </div>
-      <Link to={'/'} className='homeBtn'> <i className="fa fa-home"></i></Link>
+      <Link to={'/'}><button className='homeBtn btn z_inf'><i className="fa fa-arrow-alt-circle-left"></i></button></Link>
       <main id="main" className='py-3 px-2'>
-        <h1 className="h1">Title</h1>
+        <h1 className="h1" id='blogTitle'>Title</h1>
         <div className="d-flex justify-content-between w-100 mb-2">
-          <span className="date fw-bold fs-4">Date : 2 Nov 2024</span>
-          <span className="author fw-bold fs-4">Author : Syed Ali Moiz</span>
+          <span className="date fw-bold text-decoration-underline fs_sm">Date : 2 Nov 2024</span>
+          <span className="author fw-bold text-decoration-underline fs_sm">Author : Syed Ali Moiz</span>
         </div>
         <p className="m-0 p-0">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid cumque architecto nobis facere fugit eos impedit quisquam, deserunt repudiandae dolores harum. Sed perferendis quidem, dicta quos soluta quod voluptates atque consequatur sint, repellat unde, maxime voluptatum veritatis architecto placeat labore. Aliquid temporibus voluptate, commodi possimus tenetur facere a praesentium. Quam delectus laborum unde quod laboriosam dolorum neque cupiditate! Officia laudantium magni iste vel, magnam cumque, exercitationem eaque inventore, debitis illum rerum dolorum corporis voluptas! Commodi ad architecto unde nobis quisquam doloremque distinctio fuga veniam neque quis consectetur porro quaerat facilis voluptas assumenda quibusdam ipsum, minus praesentium? Explicabo similique incidunt quo ea delectus porro exercitationem et, voluptatibus cupiditate impedit iusto soluta vero voluptates aut animi reprehenderit quae dolor asperiores beatae possimus laborum excepturi! Laudantium cupiditate, necessitatibus nostrum est ullam suscipit repudiandae, itaque quod cumque nam vero enim sapiente, minus unde facilis quisquam doloribus doloremque! Vitae, a ea magnam dolor maiores dolorem totam quasi vel assumenda labore cum. Recusandae ab, provident officiis delectus in illo dolorum magni amet reiciendis veniam incidunt ullam corporis vitae nulla omnis libero fugiat labore quae! Quia soluta illo officia quis non quos ex exercitationem similique pariatur saepe! Maiores sint amet quidem. Iste, recusandae perferendis. Quos, inventore ad.
@@ -68,16 +74,16 @@ export default function ViewBlog() {
         </p>
       </main>
       <Comments/>
-      <a
+      <span
+      onClick={()=>scrollToTop()}
         className="scroll"
-        href="#main"
         style={{ opacity: scrollVisible ? 1 : 0 }}
       >
         <div className="container">
           {[...Array(8)].map((_, i) => <div key={i} className="rectangle" />)}
         </div>
         <span className="text">Throttle up</span>
-      </a>
+      </span>
     </div>
   );
 }
